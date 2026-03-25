@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebijakan Privasi - Bengkel Tracker</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #f8f9fa;
+    }
+    .header {
+      background: linear-gradient(135deg, #ea580c, #f97316);
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .header h1 { font-size: 28px; margin-bottom: 8px; }
+    .header p { opacity: 0.9; font-size: 15px; }
+    .container {
+      max-width: 720px;
+      margin: -24px auto 48px;
+      padding: 32px 24px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    h2 {
+      font-size: 20px;
+      color: #ea580c;
+      margin: 32px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #fed7aa;
+    }
+    h2:first-child { margin-top: 0; }
+    h3 { font-size: 16px; margin: 20px 0 8px; color: #444; }
+    p { margin-bottom: 12px; font-size: 15px; }
+    ul { margin: 8px 0 16px 24px; }
+    li { margin-bottom: 6px; font-size: 15px; }
+    .update { text-align: center; color: #888; font-size: 13px; margin-top: 32px; padding-top: 20px; border-top: 1px solid #eee; }
+    .footer { text-align: center; padding: 24px; color: #999; font-size: 13px; }
+    a { color: #ea580c; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kebijakan Privasi</h1>
+  <p>Bengkel Tracker — Aplikasi Pencatat Servis Kendaraan</p>
+</div>
+
+<div class="container">
+
+  <h2>1. Pendahuluan</h2>
+  <p>Kebijakan Privasi ini menjelaskan bagaimana <strong>Bengkel Tracker</strong> (selanjutnya disebut "Aplikasi", "Kami") mengumpulkan, menggunakan, menyimpan, dan melindungi informasi pribadi Anda saat menggunakan aplikasi kami.</p>
+  <p>Dengan menggunakan Aplikasi ini, Anda menyetujui praktik yang dijelaskan dalam Kebijakan Privasi ini. Jika Anda tidak setuju, mohon untuk tidak menggunakan Aplikasi.</p>
+
+  <h2>2. Informasi yang Kami Kumpulkan</h2>
+
+  <h3>a. Informasi Akun</h3>
+  <ul>
+    <li>Nama lengkap</li>
+    <li>Alamat email</li>
+    <li>Kata sandi (disimpan dalam bentuk terenkripsi)</li>
+  </ul>
+
+  <h3>b. Data Kendaraan</h3>
+  <ul>
+    <li>Nama/merek kendaraan</li>
+    <li>Jenis kendaraan (motor/mobil)</li>
+    <li>Nomor plat kendaraan</li>
+    <li>Tahun kendaraan</li>
+  </ul>
+
+  <h3>c. Data Riwayat Servis</h3>
+  <ul>
+    <li>Tanggal servis</li>
+    <li>Jarak tempuh (kilometer)</li>
+    <li>Kategori servis</li>
+    <li>Nama bengkel</li>
+    <li>Deskripsi pekerjaan</li>
+    <li>Rincian biaya (suku cadang dan jasa)</li>
+    <li>Foto struk/nota servis (opsional)</li>
+  </ul>
+
+  <h3>d. Informasi Perangkat</h3>
+  <ul>
+    <li>Versi aplikasi</li>
+    <li>Jenis dan versi sistem operasi</li>
+  </ul>
+
+  <h2>3. Cara Kami Menggunakan Informasi</h2>
+  <p>Informasi yang dikumpulkan digunakan untuk:</p>
+  <ul>
+    <li>Menyediakan dan mengelola akun pengguna</li>
+    <li>Menyimpan dan menampilkan data kendaraan serta riwayat servis Anda</li>
+    <li>Menyinkronkan data antar perangkat melalui layanan cloud</li>
+    <li>Meningkatkan kualitas dan performa Aplikasi</li>
+    <li>Mengirim notifikasi terkait pembaruan aplikasi (jika diperlukan)</li>
+  </ul>
+
+  <h2>4. Penyimpanan Data</h2>
+  <p>Data Anda disimpan secara aman di server <strong>Supabase</strong> yang menggunakan infrastruktur cloud dengan enkripsi standar industri. Kami menerapkan langkah-langkah keamanan yang wajar untuk melindungi data Anda dari akses tidak sah, pengubahan, pengungkapan, atau penghancuran.</p>
+  <p>Foto struk/nota yang Anda unggah disimpan di penyimpanan cloud yang aman dan hanya dapat diakses oleh akun Anda.</p>
+
+  <h2>5. Keamanan Data</h2>
+  <p>Kami berkomitmen untuk menjaga keamanan data Anda dengan menerapkan:</p>
+  <ul>
+    <li>Enkripsi kata sandi menggunakan standar industri</li>
+    <li>Row Level Security (RLS) — setiap pengguna hanya dapat mengakses data miliknya sendiri</li>
+    <li>Koneksi terenkripsi (HTTPS/TLS) untuk semua transfer data</li>
+    <li>Autentikasi berbasis token yang aman</li>
+  </ul>
+
+  <h2>6. Berbagi Data dengan Pihak Ketiga</h2>
+  <p>Kami <strong>tidak menjual, memperdagangkan, atau menyewakan</strong> informasi pribadi Anda kepada pihak ketiga. Data Anda hanya digunakan untuk keperluan operasional Aplikasi.</p>
+  <p>Kami dapat mengungkapkan informasi jika diwajibkan oleh hukum atau peraturan pemerintah yang berlaku.</p>
+
+  <h2>7. Hak Pengguna</h2>
+  <p>Anda memiliki hak untuk:</p>
+  <ul>
+    <li><strong>Mengakses</strong> — melihat data pribadi yang kami simpan tentang Anda</li>
+    <li><strong>Memperbarui</strong> — mengubah informasi profil, kendaraan, dan data servis Anda</li>
+    <li><strong>Menghapus</strong> — menghapus data kendaraan dan riwayat servis kapan saja</li>
+    <li><strong>Menutup akun</strong> — menghubungi kami untuk menghapus seluruh akun dan data terkait</li>
+  </ul>
+
+  <h2>8. Penyimpanan Lokal</h2>
+  <p>Aplikasi dapat menyimpan preferensi pengaturan (seperti tema tampilan) secara lokal di perangkat Anda. Data ini tidak dikirim ke server kami.</p>
+
+  <h2>9. Anak-Anak</h2>
+  <p>Aplikasi ini tidak ditujukan untuk anak-anak di bawah usia 13 tahun. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak. Jika Anda mengetahui bahwa anak di bawah 13 tahun telah memberikan data pribadi kepada kami, silakan hubungi kami agar kami dapat menghapus informasi tersebut.</p>
+
+  <h2>10. Perubahan Kebijakan Privasi</h2>
+  <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diberitahukan melalui pembaruan aplikasi atau pemberitahuan di dalam Aplikasi. Penggunaan Aplikasi secara berkelanjutan setelah perubahan dianggap sebagai persetujuan Anda terhadap kebijakan yang diperbarui.</p>
+
+  <!-- <h2>11. Hubungi Kami</h2>
+  <p>Jika Anda memiliki pertanyaan, masukan, atau permintaan terkait Kebijakan Privasi ini, silakan hubungi kami melalui:</p>
+  <ul>
+    <li>Email: <a href="mailto:kezodevstudio@gmail.com">kezodevstudio@gmail.com</a></li>
+  </ul> -->
+
+  <div class="update">
+    Terakhir diperbarui: 25 Maret 2026
+  </div>
+</div>
+
+<div class="footer">
+  &copy; 2026 Kezo Dev Studio. Hak cipta dilindungi.
+</div>
+
+</body>
+</html>
